@@ -3,6 +3,7 @@ import { useSearch } from "wouter";
 import { motion, AnimatePresence } from "framer-motion";
 import { X, Plus, TrendingUp, Check, Minus } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
 import {
   RadarChart, PolarGrid, PolarAngleAxis, Radar,
