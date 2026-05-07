@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Smart Card Comparison & Recommendation"
+version = "1.0.0"
+id = "artifacts/card-recommender"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 19529
+
+[services.development]
+run = "pnpm --filter @workspace/card-recommender run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/card-recommender", "run", "build" ]
+publicDir = "artifacts/card-recommender/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "19529"
+BASE_PATH = "/"

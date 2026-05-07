@@ -1,0 +1,267 @@
+Develop a complete modern AI-powered frontend-based web application titled “Smart Card Comparison & Recommendation Website Using Association Rules”.
+
+The application should help users discover, compare, filter, and get smart recommendations for different types of financial cards using Association Rule Mining without any backend. The entire project should work using frontend technologies, static datasets, and JavaScript-based recommendation logic.
+
+The platform should support:
+- Credit Cards
+- Debit Cards
+- Cashback Cards
+- Travel Cards
+- Fuel Cards
+- Shopping Cards
+- Student Cards
+- Premium Cards
+- Virtual Cards
+
+Main Goal:
+Build a smart recommendation system using Association Rules where users receive card suggestions based on predefined patterns and preferences.
+
+Use:
+- Apriori Algorithm
+- Frequent Itemset Mining
+- Rule-Based Recommendation Logic
+- Support
+- Confidence
+- Lift
+
+Example Rules:
+- Users interested in Fuel Cards also prefer Cashback Cards
+- Users selecting Travel Cards often like Lounge Access Cards
+- Users choosing Student Cards prefer Zero Annual Fee Cards
+- Users interested in Online Shopping also prefer Cashback Cards
+
+The application must recommend cards based on:
+- cashback preference
+- travel interest
+- fuel usage
+- shopping behavior
+- dining preference
+- entertainment expenses
+- annual fee preference
+- reward interests
+
+When users select preferences, the system should:
+- apply association rules
+- generate instant recommendations
+- show matching percentage
+- show recommendation confidence
+- explain why a card is recommended
+
+Example:
+“This card is recommended because users interested in cashback and online shopping frequently choose this card.”
+
+Tech Stack:
+Frontend:
+- React.js
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Chart.js or Recharts
+
+No backend should be used.
+
+Data Storage:
+- JSON files
+- CSV datasets
+- Browser Local Storage
+
+The UI design should be:
+- modern
+- responsive
+- fintech styled
+- minimal
+- animated
+- dashboard based
+- mobile friendly
+
+Use:
+- glassmorphism
+- gradient cards
+- hover effects
+- smooth transitions
+- dark/light mode
+- animated charts
+
+Main Features:
+
+1. Home Page
+- Hero section
+- Featured smart cards
+- Trending recommendations
+- Search bar
+- Modern fintech design
+
+2. Smart Recommendation Module
+Users can:
+- select spending preferences
+- choose reward interests
+- select card categories
+
+The system should:
+- apply association rules
+- generate recommendations instantly
+- display recommendation confidence
+- display support and lift values
+
+3. Card Comparison Module
+Allow users to compare multiple cards side-by-side using:
+- annual fees
+- joining fees
+- cashback percentage
+- reward points
+- travel benefits
+- fuel benefits
+- lounge access
+- EMI options
+- interest rates
+- welcome bonuses
+- eligibility
+
+Use:
+- interactive tables
+- animated charts
+- rating system
+
+4. Search and Filter System
+Include:
+- live search
+- bank-wise filtering
+- cashback filters
+- annual fee filters
+- reward type filters
+- travel benefit filters
+- student card filters
+- premium card filters
+
+5. Card Details Page
+Display:
+- card image
+- card features
+- reward structure
+- cashback offers
+- fees
+- benefits
+- eligibility
+- recommendation tags
+- rating system
+
+6. Bookmark Feature
+Users can:
+- save favorite cards
+- remove bookmarks
+- view saved cards
+
+Use browser local storage.
+
+7. Analytics Dashboard
+Show:
+- most selected cards
+- recommendation trends
+- popular categories
+- spending preference insights
+- card popularity graphs
+
+Use:
+- pie charts
+- bar charts
+- animated statistics
+- dashboards
+
+Dataset Requirements:
+Create realistic datasets containing:
+- card_id
+- card_name
+- bank_name
+- card_type
+- annual_fee
+- joining_fee
+- cashback_categories
+- reward_points
+- travel_benefits
+- fuel_benefits
+- shopping_benefits
+- dining_benefits
+- lounge_access
+- interest_rate
+- eligibility
+- card_rating
+
+Also create:
+- association rule datasets
+- user preference patterns
+- support values
+- confidence values
+- lift values
+
+Store all data in:
+- JSON
+- CSV
+
+Implement Apriori Algorithm logic in JavaScript and generate:
+- frequent itemsets
+- association rules
+- recommendation confidence scores
+
+Display:
+- support value
+- confidence value
+- lift value
+
+Example:
+Rule:
+Travel Card → Lounge Access Card
+
+Support: 45%
+Confidence: 82%
+Lift: 1.9
+
+Pages Required:
+1. Home Page
+2. Recommendation Page
+3. Card Comparison Page
+4. Card Details Page
+5. Bookmark Page
+6. Analytics Dashboard
+7. Search Results Page
+8. About Project Page
+
+Optional Advanced Features:
+- AI chatbot assistant
+- voice search
+- PDF export for comparison
+- recommendation animations
+- smart fintech dashboard
+- notification system
+
+Generate complete:
+- React frontend source code
+- Tailwind CSS styling
+- folder structure
+- recommendation engine
+- Apriori algorithm implementation
+- search and filter logic
+- comparison module
+- analytics dashboard
+- JSON datasets
+- CSV datasets
+- README.md
+- installation guide
+- project explanation
+- recommendation logic explanation
+
+The final project should:
+- work completely without backend
+- demonstrate Association Rule Mining clearly
+- provide smart card recommendations
+- look professional and modern
+- be responsive on all devices
+- be suitable for final year project, mini project, portfolio project, and AIML demonstration
+
+Code should be:
+- clean
+- modular
+- scalable
+- properly commented
+- beginner understandable
+- production style
+- responsive and optimized.
