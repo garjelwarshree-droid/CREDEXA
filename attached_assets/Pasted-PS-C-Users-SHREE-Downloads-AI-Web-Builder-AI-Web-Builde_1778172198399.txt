@@ -1,0 +1,46 @@
+PS C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder> pnpm add -D @rollup/rollup-win32-x64-msvc -w
+Progress: resolved 488, reused 0, downloaded 0, added 0, done
+
+devDependencies:
++ @rollup/rollup-win32-x64-msvc ^4.60.3
+
+Packages: +1
++
+Done in 1.1s using pnpm v11.0.8
+PS C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder> pnpm --filter @workspace/card-recommender run dev
+$ vite --config vite.config.ts --host 0.0.0.0
+failed to load config from C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\artifacts\card-recommender\vite.config.ts
+error when starting dev server:
+Error: Cannot find module '../lightningcss.win32-x64-msvc.node'
+Require stack:
+- C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\node_modules\.pnpm\lightningcss@1.32.0\node_modules\lightningcss\node\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1410:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.require (node:internal/modules/cjs/loader:1493:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\node_modules\.pnpm\lightningcss@1.32.0\node_modules\lightningcss\node\index.js:20:12)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\artifacts\card-recommender:
+[ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL] @workspace/card-recommender@0.0.0 dev: `vite --config vite.config.ts --host 0.0.0.0`
+Exit status 1
+PS C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder> cd artifacts\card-recommender
+>> npx vite --host
+failed to load config from C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\artifacts\card-recommender\vite.config.ts
+error when starting dev server:
+Error: Cannot find module '../lightningcss.win32-x64-msvc.node'
+Require stack:
+- C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\node_modules\.pnpm\lightningcss@1.32.0\node_modules\lightningcss\node\index.js
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1410:15)
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.require (node:internal/modules/cjs/loader:1493:12)
+    at require (node:internal/modules/helpers:152:16)
+    at Object.<anonymous> (C:\Users\SHREE\Downloads\AI-Web-Builder\AI-Web-Builder\node_modules\.pnpm\lightningcss@1.32.0\node_modules\lightningcss\node\index.js:20:12)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
